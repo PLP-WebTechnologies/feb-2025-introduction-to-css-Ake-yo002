@@ -1,0 +1,83 @@
+/* Sets up basic page styles - font, spacing, background */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Makes text easier to read */
+    background-color: #f8f0ff; /* Light purple background */
+    margin: 0;
+    padding: 20px; /* Adds space around content */
+}
+
+/* Styles the header text - purple and centered */
+header h1 {
+    color: #9c27b0; /* Bright purple */
+    text-align: center;
+    font-size: 2.5rem; /* Big text for header */
+}
+
+/* Intro section styling - different from others */
+#intro {
+    background-color: #e1bee7; /* Light purple */
+    padding: 25px; /* Space inside box */
+    border-radius: 15px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below */
+    border-left: 5px solid #7b1fa2; /* Left accent border */
+}
+
+/* Intro heading - dark purple with subtle shadow */
+#intro h1 {
+    color: #4a148c;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Small shadow */
+}
+
+/* CSS section - pink theme */
+#css-section {
+    background-color: #fce4ec; /* Light pink */
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-top: 5px solid #e91e63; /* Top border accent */
+}
+
+/* CSS heading - deep pink */
+#css-section h2 {
+    color: #ad1457;
+}
+
+/* JavaScript section - gradient effect */
+#javascript-section {
+    background: linear-gradient(to right, #d1c4e9, #e1bee7); /* Left-to-right gradient */
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* JS heading - purple */
+#javascript-section h2 {
+    color: #6a1b9a;
+}
+
+/* Python section - different pink */
+#python-section {
+    background-color: #f8bbd0; /* Soft pink */
+    padding: 25px;
+    border-radius: 15px;
+    border-bottom: 5px solid #c2185b; /* Bottom border accent */
+}
+
+/* Python heading - dark pink */
+#python-section h2 {
+    color: #880e4f;
+}
+
+/* Styles that apply to ALL h2 elements */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 0; /* Removes default space above */
+}
+
+/* Paragraph text styling */
+p {
+    color: #333; /* Dark gray */
+    font-size: 1.1rem; 
+}
